@@ -1,0 +1,22 @@
+{
+  "name": "notion-to-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "page": "node scripts/queryPage.js",
+    "queryfiles": "node scripts/allDatabase.js",
+    "generate": "node scripts/all_pdf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@kodaps/notion-parse": "^0.0.17",
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.5",
+    "markdown-pdf": "^11.0.0",
+    "pdfkit": "^0.15.0"
+  }
+}
